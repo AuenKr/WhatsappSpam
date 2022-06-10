@@ -7,15 +7,21 @@ import time
 
 message=input("Enter message to spam: ")
 
-wb.open("https://web.whatsapp.com/")
+#wb.open("https://web.whatsapp.com/")
 
-time.sleep(30)
+time.sleep(20)
+
+for j in "Spammer Alert Somesh":
+    gui.press(j)
+gui.press("enter")
+
 
 while (1):
     for j in message:
         gui.press(j)
     gui.press("enter")
 
+  
     
 
     
