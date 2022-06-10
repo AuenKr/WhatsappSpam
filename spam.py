@@ -1,4 +1,4 @@
-#install module pyautogui, webbrowser
+#install module pyautogui
 #pip install <Module_Name>
 
 import pyautogui as gui
