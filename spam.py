@@ -16,7 +16,7 @@ for j in "Spammer Alert Somesh":
 gui.press("enter")
 
 
-while (1):
+while (True):
     for j in message:
         gui.press(j)
     gui.press("enter")
