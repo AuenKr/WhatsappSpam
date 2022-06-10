@@ -5,8 +5,8 @@ import pyautogui as gui
 import webbrowser as wb
 import time
 
-message=input("Enter message to spam: ")
-
+message=input("Open Whatsapp web and select person to spam\nEnter message to spam: ")
+printf("Select the contact and wait for 20 sec")
 #wb.open("https://web.whatsapp.com/")
 
 time.sleep(20)
