@@ -11,7 +11,7 @@ message=input("Enter message to spam: ")
 
 time.sleep(20)
 
-for j in "Spammer Alert Somesh":
+for j in "Spammer Alert ":
     gui.press(j)
 gui.press("enter")
 
