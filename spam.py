@@ -11,13 +11,13 @@ time.sleep(20)
 
 for j in "Spammer Alert ":
     gui.press(j)
-gui.press("enter")
+gui.press('enter')
 
 
 while (True):
     for j in message:
         gui.press(j)
-    gui.press("enter")
+    gui.press('enter')
 
   
     
